@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.container{
+  max-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  
+  
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+
+
+@media screen and (max-width: 1024px){
+  :root{
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size:0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size:0.75rem;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto ;
+  }
+}

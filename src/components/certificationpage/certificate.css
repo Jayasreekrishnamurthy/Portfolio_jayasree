@@ -1,0 +1,327 @@
+.work-container{
+    background-color: rgb(27, 24, 24);
+    height: 100%; 
+   
+}
+
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    color: white;
+   text-decoration: underline;
+}
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+  
+}
+.project-card{
+    background: #071d3a;
+    padding: 1.5rem 1rem;
+    box-shadow: rgb(39, 38, 38);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+.project-card:hover {
+    border: 1px solid #faf7f7;
+    background: #595a5c;
+
+  }
+
+.project-card .certificateimg{
+    width: 100%;
+    height: 300px;
+
+}
+.btns{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90.21deg, rgba(90, 87, 89, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+}
+.project-title{
+    color: white;
+    padding: 1rem 0;
+}
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: white;
+}
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.pro-btns .btns{
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90.21deg, rgba(90, 87, 89, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+}
+
+
+@media screen and (max-width: 740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+   
+   
+}
+
+
+  .certification {
+    width: 100px;
+    margin-top: auto;
+    padding: 20px;
+    background-color: rgb(27, 24, 24);
+    
+  }
+  .TopCertificateCards {
+    width: 100%;
+  }
+  .certificateCards {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 18px;
+    background-color: rgb(27, 24, 24);
+  
+    
+  }
+  .certification .title {
+    color: #0f2e66;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: normal;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  .certificateView {
+    width: 90%;
+    height: 100%;
+    margin-bottom: -20px;
+  }
+  .topContent {
+    display: none;
+  }
+  .experienceData .experienceDataContentRight .exTitle {
+    color: #0f2e66;
+    margin: 20px 0px 18px 28px;
+    font-weight: bold;
+    font-size: 46px;
+    /* line-height: 3.6rem; */
+  }
+  .experienceColumnLeft {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  
+  .animationTitle .topic {
+    font-size: 7rem;
+    color: #ffffff;
+    border-left: 2px solid #ffffff;
+    border-radius: 6px;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(5, 188, 255);
+    animation-duration: 4s;
+    /* opacity: 1; */
+  }
+  
+  .animationTitle .topic:nth-child(1) {
+    animation-name: animating-text;
+  }
+  @keyframes animating-text {
+    0% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* media query */
+  @media screen and (max-width: 1087px) {
+    .center_part_top {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 840px) {
+    .certificateCards {
+      display: grid;
+      width: 90%;
+      grid-template-columns: auto auto;
+      /* gap: 38px; */
+    }
+    
+  }
+  @media screen and (max-width: 680px) {
+    .certificateCards {
+      display: grid;
+      grid-template-columns: auto;
+      
+    }
+  }
+  @media screen and (max-width: 1086px) {
+    .topContent {
+      display: block;
+      text-align: center;
+      margin: 4rem auto;
+      height: auto;
+      padding: 1.8rem;
+    }
+    .topContent .topContentContainer .topic {
+      color: #ffffff;
+      font-size: 6rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 3px rgb(5, 188, 255);
+      animation-duration: 6s;
+    }
+    .topContent .topContentContainer .topic:nth-child(1) {
+      animation-name: animating-text;
+    }
+    .topContent .topContentContainer .objective {
+      color: #c6cacd;
+      font-size: 1.6rem;
+      margin-top: 23px;
+      line-height: 2.8rem;
+    }
+    .topContent .topContentContainer .role {
+      color: #c6cacd;
+      font-size: 1.6rem;
+      margin-top: 23px;
+      border-bottom: 1px solid #c6cacd;
+      display: inline-block;
+    }
+    .topContent .topContentContainer .btn {
+      align-items: center;
+      margin-bottom: 18px;
+      border: 1px solid #00a6d5;
+      display: inline-block;
+      border-radius: 4px;
+    }
+    .experienceData {
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+    }
+    .experienceDataContentRight {
+      width: 90%;
+    }
+    .experienceColumnLeft {
+      align-items: center;
+    }
+    .experienceData .experienceColumn {
+      display: flex;
+      flex-direction: column;
+      margin: 3rem auto;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .experienceData .experienceDataContentRight .exTitle {
+      text-align: center;
+      margin: 0;
+      font-size: 3rem;
+    }
+    @keyframes animating-text {
+      0% {
+        transform: translateY(-16%);
+      }
+    }
+  }
+  @media screen and (max-width: 666px) {
+    .topContent {
+      height: auto;
+      margin: 4rem auto;
+    }
+    .topContent .topContentContainer .topic {
+      font-size: 4rem;
+    }
+    .topContent .topContentContainer .objective {
+      font-size: 1.4rem;
+      margin-top: 18px;
+    }
+    .topContent .topContentContainer .role {
+      /* font-size: 1.4rem; */
+      margin-top: 14px;
+    }
+  }
+  @media screen and (max-width: 478px) {
+    .topContainerContent {
+     
+      background-position: center;
+      width: 50px;
+    }
+    .certification {
+      padding: 0 0 30px 0px;
+      
+    }
+    .certification .title {
+      padding-top: 30px;
+    }
+  
+    .experienceData {
+      padding: 0;
+    }
+  }
+  /* @media screen and (max-width: 990px) {
+    
+  } */
+  /*
+  @media screen and (max-width: 955px) {
+    .experienceData .experienceColumn {
+      margin-left: 30px;
+    }
+  } */
+  /* @media screen and (max-width: 863px) {
+    .experienceData .experienceColumn {
+      margin-left: 10px;
+    }
+  } */
+  @media screen and (max-width: 800px) {
+    .experienceColumnLeft {
+      flex-direction: column;
+      display: flex;
+      font-size: 12px;
+      margin: auto;
+      /* background-color: red; */
+    }
+    .individualExperience {
+      width: 200px;
+    }
+  }
+
+@media screen and (max-width: 1086px){
+.about_data {
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 50px;
+}
+}
+
+
+
+

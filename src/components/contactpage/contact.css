@@ -1,0 +1,106 @@
+:root {
+    /* --bg-color: #0c0c0c; */
+    --primary-color: #0d0d0d;
+    --secondary-color: #2c2929;
+    --text-color: #131212;
+    --text-color-2: #fff;
+    --overlay-color: rgb(12 12 12 / 63%);
+}
+
+.contactheading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration: underline;
+    
+}
+.contactpart{
+    background: linear-gradient(90.21deg, rgba(90, 87, 89, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+}
+.btn1{
+ color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 35px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90.21deg, rgba(90, 87, 89, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+}
+a,
+a:hover {
+    color: var(--text-color);
+}
+
+p {
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.ovhidden {
+    overflow: hidden;
+}
+
+.text_2,
+.text_2:hover {
+    color: var(--text-color-2);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+
+.color_pr {
+    color: var(--primary-color) !important;
+}
+
+.color_sec {
+    color: var(--secondary-color);
+}
+
+.contact__form .form-control {
+    padding: 1.375rem .75rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 0 !important;
+    border: 1px solid var(--secondary-color);
+}
+
+.contact__form input.form-control {
+    margin-bottom: 2em;
+    height: calc(2.5em + .75rem + 2px);
+}
+
+.loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    z-index: 999999999;
+    background: var(--text-color);
+    transform: translateX(100%);
+    animation: shift-rightwards 1s ease-in-out infinite;
+    animation-delay: .3s;
+}
+
+@keyframes shift-rightwards {
+    0% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(0%);
+    }
+    60% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+.btn{
+    color: #fff;
+}

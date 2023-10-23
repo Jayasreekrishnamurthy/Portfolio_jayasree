@@ -1,0 +1,28 @@
+.fab{
+    color: #3b5998;
+    margin-left: 30px;
+}
+.fa-github{
+    color: white;
+   
+}
+.fa-youtube{
+    color: #ed302f;
+}
+.fa-2x {
+    font-size: 20px;
+}
+
+  .myName {
+    color: rgb(219, 205, 11);
+    font-size: 1.8rem;
+    margin-right: 200px;
+   
+    
+  }
+  @media screen and (max-width: 826px) {
+    .myName{
+        margin-left: 60px;
+    }
+  }
+  
